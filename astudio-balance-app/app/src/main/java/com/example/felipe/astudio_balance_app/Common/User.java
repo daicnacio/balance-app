@@ -10,7 +10,7 @@ public class User {
     private int id;
     private String name;
     private String shrtname;
-    private List<Transaction> transx = null;
+    private List<Transaction> transxList = null;
 
     public User(int id, String name, String shrtname) {
         this.id = id;
@@ -43,6 +43,6 @@ public class User {
     }
 
     public void addTransx(Transaction tx){
-        this.transx.add(tx);
+        this.transxList.add(tx);
     }
 }

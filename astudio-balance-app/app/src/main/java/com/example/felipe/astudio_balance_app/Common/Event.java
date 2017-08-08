@@ -13,7 +13,7 @@ public class Event {
     private Date date;
     private double quantity;
     private User payer;
-    private List<User> group;
+    private List<User> userList;
 
     public Event(int id, String name, Date date, double quantity, User payer, List<User> group) {
         this.id = id;
@@ -21,7 +21,7 @@ public class Event {
         this.date = date;
         this.quantity = quantity;
         this.payer = payer;
-        this.group = group;
+        this.userList = group;
     }
 
     public int getId() {
@@ -65,10 +65,10 @@ public class Event {
     }
 
     public List<User> getGroup() {
-        return group;
+        return userList;
     }
 
     public void addUsers(User user){
-        this.group.add(user);
+        this.userList.add(user);
     }
 }
