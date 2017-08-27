@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             logout();
         }
         logout = (Button)findViewById(R.id.btLogout);
-        addTransx = (ImageButton)findViewById(R.id.btAddTransaction);
+        addTransx = (ImageButton)findViewById(R.id.ibAddTransaction);
 
         logout.setOnClickListener(this);
         addTransx.setOnClickListener(this);
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btLogout:
                 logout();
                 break;
-            case R.id.btAddTransaction:
+            case R.id.ibAddTransaction:
                 startActivity(new Intent(MainActivity.this,TransactionActivity.class));
                 break;
         }

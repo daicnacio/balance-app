@@ -31,7 +31,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btLogout" />
 
     <ImageButton
-        android:id="@+id/btAddTransaction"
+        android:id="@+id/ibAddTransaction"
         android:background="@drawable/oval"
         android:layout_width="56dp"
         android:layout_height="56dp"
@@ -42,7 +42,7 @@
         app:srcCompat="@android:drawable/ic_menu_add" />
 
     <ImageButton
-        android:id="@+id/btMenu"
+        android:id="@+id/ibMenu"
         android:background="@drawable/square"
         android:layout_width="42dp"
         android:layout_height="42dp"
