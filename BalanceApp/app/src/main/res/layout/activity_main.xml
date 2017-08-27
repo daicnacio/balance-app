@@ -30,4 +30,26 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/btLogout" />
 
+    <ImageButton
+        android:id="@+id/btAddTransaction"
+        android:background="@drawable/oval"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <ImageButton
+        android:id="@+id/btMenu"
+        android:background="@drawable/square"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="-9dp"
+        android:layout_marginTop="-11dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_menu_black_24dp" />
+
 </android.support.constraint.ConstraintLayout>
