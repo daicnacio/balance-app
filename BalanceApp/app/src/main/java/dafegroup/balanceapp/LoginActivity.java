@@ -5,10 +5,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private Button login, register;
+    private Button login;
+    private TextView register;
     private EditText etName, etPass;
 
     @Override
@@ -17,7 +19,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_login);
 
         login = (Button)findViewById(R.id.btLogin);
-        register = (Button)findViewById(R.id.btRegister);
+        register = (TextView)findViewById(R.id.tvRegister);
         etName = (EditText)findViewById(R.id.etName);
         etPass = (EditText)findViewById(R.id.etPass);
 
@@ -32,7 +34,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.btLogin:
                 //TODO
                 break;
-            case R.id.btRegister:
+            case R.id.tvRegister:
                 //TODO
                 break;
         }
